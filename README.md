@@ -1,117 +1,126 @@
-Uber Analytics Dashboard – Power BI
+Amazon Sales Analytics Dashboard – Tableau
 
 📌 Project Overview
 
-This project presents an interactive Power BI dashboard built to analyze Uber ride data.
-The dashboard provides insights into ride trends, revenue patterns, customer behavior, and operational performance, helping stakeholders make data-driven decisions.
+This project features an interactive Tableau dashboard designed to analyze Amazon sales performance.
+The dashboard transforms raw sales data into insightful visual analytics, enabling understanding of revenue trends, product performance, customer behavior, and regional sales distribution.
 
-The report transforms raw trip-level data into meaningful visual analytics through data cleaning, modeling, DAX measures, and interactive visualizations.
+It is built to support data-driven decision-making for e-commerce business strategy and performance monitoring.
 
 🎯 Objectives
 
-Analyze Uber ride demand over time
+Track overall sales and revenue trends
 
-Understand revenue and trip distribution
+Identify top-performing products and categories
 
-Identify peak booking hours and days
+Analyze customer purchase behavior
 
-Study trip distance and fare patterns
+Monitor regional and time-based sales performance
 
-Provide actionable insights for business optimization
+Provide actionable insights for business growth
 
 🗂️ Dataset Information
 
-The dashboard uses Uber trip data containing fields such as:
+The dataset contains Amazon sales transaction records, including fields such as:
 
-Ride Date & Time
+Order ID
 
-Pickup and Drop-off Locations
+Order Date
 
-Trip Distance
+Product Category
 
-Fare Amount
+Product Name
 
-Payment Type
+Sales Amount
 
-Driver / Customer identifiers (if applicable)
+Quantity Ordered
 
+Customer Segment
+
+Region / Country
+
+Profit / Discount (if applicable)
 Tools & Technologies
 
-Power BI Desktop – Dashboard development
+Tableau Desktop – Dashboard development
 
-Power Query – Data cleaning and transformation
+Calculated Fields – Custom KPIs and metrics
 
-DAX (Data Analysis Expressions) – Measures and KPIs
+Data Blending / Joins – Data modeling
 
-Data Modeling – Relationship building
+Interactive Filters & Parameters – User-driven exploration
 
-Visualization Design – Interactive reports
+Data Visualization Design Principles
 
-Data Processing Steps
+🔄 Data Processing Steps
 
-Imported raw Uber trip dataset into Power BI
+Imported raw sales dataset into Tableau
 
-Cleaned missing and inconsistent values in Power Query
+Cleaned and formatted data fields
 
-Created calculated columns and measures using DAX
+Created calculated fields for KPIs
 
-Built data model with proper relationships
+Built relationships between data tables
 
-Designed interactive visuals and filters
+Designed visual worksheets
 
-Published final dashboard
+Combined worksheets into an interactive dashboard
 
 📊 Dashboard Features
-Key KPIs
+Key Performance Indicators (KPIs)
 
-Total Trips
+Total Sales Revenue
 
-Total Revenue
+Total Orders
 
-Average Fare per Trip
+Total Profit
 
-Average Trip Distance
+Average Order Value
 
 Visualizations
 
-Trips by Day / Month trend line
+Sales trend by Month / Year
 
-Revenue distribution by time
+Category-wise sales bar chart
 
-Peak ride hours heatmap
+Region-wise revenue map
 
-Fare vs Distance scatter plot
+Top products ranking
 
-Location-based pickup analysis
+Customer segment contribution
 
-Payment method breakdown
+Profit vs Discount analysis
 
 Interactive Elements
 
-Date slicers
+Date range filters
 
-Location filters
+Category and region slicers
 
-Drill-through ride details
+Highlight actions
 
-Tooltip insights
+Drill-down analysis
 
 📈 Business Insights
 
-Identifies high-demand time periods
+Identifies best-selling product categories
 
-Highlights revenue-generating locations
+Highlights high-revenue regions
 
-Shows customer ride behavior patterns
+Shows seasonal sales trends
 
-Supports operational decision-making
+Helps optimize discount and pricing strategies
+
+Supports inventory and marketing decisions
 
 Future Enhancements
 
-Add real-time data refresh
+Add real-time data connection
 
-Integrate map-based pickup/drop visualization
+Publish dashboard to Tableau Public
 
-Include driver performance analysis
+Include forecasting for future sales
 
-Deploy to Power BI Service with sharing
+Add customer lifetime value analysis
+
+Integrate advanced parameter controls.
